@@ -4,9 +4,11 @@ body {
 
 p {
 	color: DarkOrange;
-	font-size: 14;
+	font-size: 12;
+	font-family: "Avenir", Avenir, sans-serif
 }
 
 h1 {
 	color: LightSeaGreen;
+	font-size: 28;
 }
