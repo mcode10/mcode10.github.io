@@ -5,8 +5,20 @@ body {
 p {
 	color: DarkOrange;
 	font-size: 1.2em;
+	text-align: center;
+	font-family: "Avenir", sans-serif;
 }
 
 h1 {
-	color: LightSeaGreen;
+	color: LightSteelBlue;
+	text-align: center;
+	font-size: 4em;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+h2 {
+	color: LightSteelBlue;
+	text-align: center;
+	font-size: 3em;
+	font-family: "Helvetica Neue", sans-serif;
 }
