@@ -12,15 +12,27 @@ html {
 
 
 #headInfo {
+  background: url('./Images/Ford_GT_Nogaro.jpg') center;
+  background-size:cover;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: center;
+  padding: 20px;
+  color:whitesmoke;
 }
 
-#remainingInfo {
+.topsplashText {
+ padding-top: 70px;
+ color: whitesmoke;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#headImage {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: center;
 }
 
 article > h3 {
@@ -33,4 +45,17 @@ footer {
   text-align: center;
 }
 
+#mainContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240 px, 1fr));
+}
 
+p {
+  color: #333333;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+footer > p {
+  color: whitesmoke;
+}
