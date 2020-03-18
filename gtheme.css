@@ -15,6 +15,7 @@ h1 {
 
 html {
     padding: 25px;
+    background-color: whitesmoke;
 }
 
 #siteLogo{
@@ -33,4 +34,42 @@ footer {
 footer > p {
   color: whitesmoke;
   text-align: center;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(100px, 1fr));
+  place-items: center;
+}
+
+.button > button {
+  text-align: center;
+  color: #FF9100;
+  background-color: whitesmoke;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding: 15px;
+  border: 2px solid #FF9100;
+  border-radius: 3px;
+}
+
+.button > button:hover {
+  text-align: center;
+  color: whitesmoke;
+  background-color: #FF9100;
+  cursor: pointer;
+}
+
+.hero {
+  background: url('./GIamges/GitFitLogo.png');
+  background-size: cover;
+  height: 1em;
+  width: 1em;
+}
+
+img {
+  width: 100%;
+  max-height: 400px;
+  background-size: cover;
+  max-width: 1000px;
 }
