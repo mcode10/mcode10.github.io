@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "FiraSans";
+  src: url("https://free.bboxtype.com/embedfonts/?family=FiraSans:500") format("woff");
+}
+
+p {
+    font-size: 1.1em;
+    font-family: 'Fira Sans';
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+html {
+    padding: 25px;
+}
+
+#siteLogo{
+  background: url(./GImages/GitFitLogo.png) center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 20px;
+  color: #333333;
+}
+
+footer {
+  background-color: #FF9100;
+}
+
+footer > p {
+  color: whitesmoke;
+  text-align: center;
+}
