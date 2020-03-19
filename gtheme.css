@@ -38,8 +38,8 @@ footer > p {
 
 .button {
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(100px, 1fr));
-  place-items: center;
+  grid-template-columns: repeat(autofit, minmax(150px, 1fr));
+  align-items: center;
 }
 
 .button > button {
@@ -69,7 +69,17 @@ footer > p {
 
 img {
   width: 100%;
-  max-height: 400px;
-  background-size: cover;
-  max-width: 1000px;
+  height: auto;
+}
+
+#buttonHousing {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(100px, 1fr));
+  place-items: center;
+}
+
+code {
+  font-size: 1.2em;
+  padding: .1rem .3rem .2rem;
+  background: #CFCFCF;
 }
