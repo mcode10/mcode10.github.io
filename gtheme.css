@@ -88,3 +88,23 @@ h3 {
   font-family: Helvetica, sans-serif;
   text-align: left;
 }
+
+a {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  color: #00B386;
+}
+
+a:hover {
+  color: #FF9100;
+}
+
+ul {
+  list-style: circle;
+}
+
+li {
+  font-family: 'Fira Sans';
+  color: #333333;
+  font-size: 1.1em;
+}
